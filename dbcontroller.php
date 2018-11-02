@@ -1,12 +1,14 @@
 <?php
 class DBController {
 	private $host = "localhost:3306";
-	private $user = "root";
-	private $password = "Wh4tMatters";
+	private $user = null;
+	private $password = null;
 	private $database = "testdb";
 	private $conn;
 	
 	function __construct() {
+                $this->user = getenv("DB_ADMIN");
+                $this->password = getenv("DB_PASSWORD");
 		$this->conn = $this->connectDB();
 	}
 	
