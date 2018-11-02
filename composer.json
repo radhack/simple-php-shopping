@@ -1,0 +1,7 @@
+{
+    "require": {
+        "league/omnipay": "dev-master",
+        "omnipay/stripe": "dev-master",
+        "stripe/stripe-php": "dev-master"
+    }
+}
