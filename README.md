@@ -12,6 +12,7 @@ I chose PHP for the backend because I'm most familiar with it, and breaking in a
 ## Authors
 
 * **Alex Griffen** - *Initial work* - [radhack](https://github.com/radhack)
+** See my process here: https://workflowy.com/s/my-process/5nTwOe4NYCoBdgjX
 
 ## License
 
