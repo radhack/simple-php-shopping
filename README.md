@@ -12,7 +12,7 @@ I chose PHP for the backend because I'm most familiar with it, and breaking in a
 ## Authors
 
 * **Alex Griffen** - *Initial work* - [radhack](https://github.com/radhack)
-** See my process here: https://workflowy.com/s/my-process/5nTwOe4NYCoBdgjX
+  * See my process here: https://workflowy.com/s/my-process/5nTwOe4NYCoBdgjX
 
 ## License
 
@@ -21,4 +21,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Thank you to Vincy at [php pot](https://phppot.com/php/simple-php-shopping-cart/)
-** Chech her stuff out - she's written some great articles and how-tos!
+  * Check her stuff out - she's written some great articles and how-tos!
