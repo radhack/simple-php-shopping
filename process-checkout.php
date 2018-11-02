@@ -50,7 +50,7 @@ $shoppingCart = new ShoppingCart();
             ?>
 
         </div>
-        <!-- <form name="frm_customer_detail" action="process-order.php" method="POST">
+        <form name="frm_customer_detail" action="process-order.php" method="POST">
             <div class="frm-heading">
                 <div class="txt-heading-label">Customer Details</div>
             </div>
@@ -86,7 +86,7 @@ $shoppingCart = new ShoppingCart();
                     </div>
                 </div>
             </div>
-              <div>
+            <!--  <div>
                 <input type="submit" class="btn-action"
                        name="proceed_payment" value="Proceed to Payment">
             </div>-->
