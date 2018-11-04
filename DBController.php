@@ -9,15 +9,17 @@ class DBController
 
     private $password = null;
 
-    private $database = "testdb";
+    private $database = null;
 
     private static $conn;
 
     function __construct()
     {
+        
         $this->host = getenv("DB_HOST");
         $this->user = getenv("DB_ADMIN");
         $this->password = getenv("DB_PASSWORD");
+        $this->database = getenv("DB_DB");
         $this->conn = mysqli_connect($this->host, $this->user, $this->password, $this->database);
     }
 
