@@ -2,6 +2,8 @@
 
 Welcome to my shopping app! I'm testing my dev skills, troubleshooting, and logic.
 
+Check it out on [Heroku](https://simple-php-shoppingcart.herokuapp.com)
+
 I chose PHP for the backend because I'm most familiar with it, and breaking in and out of PHP in the same file is ridiculously convenient.
 
 ## How does it work?
