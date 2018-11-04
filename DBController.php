@@ -3,11 +3,11 @@
 class DBController
 {
 
-    private $host = "localhost:3306";
+    private $host = null;
 
-    private $user = "DB_USER";
+    private $user = null;
 
-    private $password = "DB_PASSWORD";
+    private $password = null;
 
     private $database = "testdb";
 
@@ -15,6 +15,7 @@ class DBController
 
     function __construct()
     {
+        $this->host = getenv("DB_HOST");
         $this->user = getenv("DB_ADMIN");
         $this->password = getenv("DB_PASSWORD");
         $this->conn = mysqli_connect($this->host, $this->user, $this->password, $this->database);
