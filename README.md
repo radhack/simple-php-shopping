@@ -18,7 +18,9 @@ Once they're happy with their choices, they can pay for their items using Stripe
 
 ## Which Stripe APIs does it use?
 
-I used the Stripe PHP example from the [documentation](https://stripe.com/docs/checkout/php) to get my config.php and charge.php, and I used the snippet of JS from the Payments>Quickstart page (referenced in the "What does it do?" section above)
+I used the Stripe Checkout PHP example from the [documentation](https://stripe.com/docs/checkout/php) to get my config.php and charge.php, and I used the snippet of JS from the Payments>Quickstart page (referenced in the "What does it do?" section above)
+
+Specifically I'm using Customer::Create and Charge::Create endpoints.
 
 ## How I approached the problem
 
