@@ -21,5 +21,5 @@ $charge = \Stripe\Charge::create([
 echo "<h1>Successfully charged $";
   $decimal_amount = $amount/100;
   $str_amount = (string)$decimal_amount;
-echo "$str_amount, and the Transaction ID was $charge->id</h>";
+echo "$str_amount, and the Transaction ID was $charge->id</h><br />click <a href=/>here</a> to go home";
 ?>
