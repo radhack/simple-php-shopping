@@ -20,7 +20,7 @@ Once they're happy with their choices, they can pay for their items using Stripe
 
 I used the Stripe Checkout PHP example from the [documentation](https://stripe.com/docs/checkout/php) to get my config.php and charge.php, and I used the snippet of JS from the Payments>Quickstart page (referenced in the "What does it do?" section above)
 
-Specifically I'm using Customer::Create and Charge::Create endpoints.
+Specifically I'm using the Customer::Create and Charge::Create endpoints.
 
 ## How I approached the problem
 
@@ -31,7 +31,7 @@ I tried to think about how I put together custom demos now:
 
 ## Why I picked this language/framework
 
-I'm most familiar with PHP, and from an ease-of-use perspective, I love that I can break in and out of PHP and HTML/javascript on the fly, and I don't typically have to worry about types - PHP does a pretty great job most of the time inferring the type
+I'm most familiar with PHP, and from an ease-of-use perspective, I love that I can break in and out of PHP and HTML/javascript on the fly, and I don't typically have to worry about types - PHP does a pretty great job most of the time inferring the type for me.
 
 ## How might I extend this if I wanted a more robust instance of this application
 
