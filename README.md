@@ -50,3 +50,5 @@ Then I'd work on the product itself
  * an awesome specs section
  
 A quick and easy thing to do would be add more products - these four are sad.
+
+Also, I'd add a way to track individual members. For ease of POC I hardcoded the member, but I'd probably store a cookie and load the cart for individuals as a very next step.
