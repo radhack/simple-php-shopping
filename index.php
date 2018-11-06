@@ -1,7 +1,5 @@
 <?php
 require_once "ShoppingCart.php";
-session_name("alex");
-session_start();
 
 $member_id = 2; // you can your integerate authentication module here to get logged in member
 
